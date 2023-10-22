@@ -1,0 +1,17 @@
+*{
+    background-color: black;
+}
+
+.menuPrincipal h1{
+    color: white;
+}
+
+nav{
+    background-color: white;
+    height: 100px;
+}
+
+footer{
+    background-color: white;
+    height: 100px;
+}
