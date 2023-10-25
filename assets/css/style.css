@@ -30,20 +30,6 @@ footer {
     border: 2px solid #f0b91e;
 }
 
-.iframe-container {
-    position: relative;
-    overflow: hidden;
-    padding-bottom: 56.25%;
-}
-
-.iframe-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-
 .modal {
     display: none;
     position: fixed;
