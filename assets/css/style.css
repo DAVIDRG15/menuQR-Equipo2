@@ -2,18 +2,10 @@ body {
     background-color: black !important;
 }
 
-.iframe-container {
-    position: relative;
+object {
     width: 100%;
-    padding-bottom: 75%;
-}
-
-iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    max-width: 100%;
+    height: 1500px;
 }
 
 .menuPrincipal h1 {
@@ -79,7 +71,8 @@ footer {
 }
 
 @media (max-width: 768px) {
-    .iframe-container {
-        padding-bottom: 150%;
+    object {
+        width: 100%;
+        height: auto;
     }
 }
